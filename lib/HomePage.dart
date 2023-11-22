@@ -10,22 +10,45 @@ class HomePage extends StatelessWidget {
           child: Column (
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton(onPressed: () => {
+              ElevatedButton(
+                onPressed: () => {
                 print('ボタンが押された!'),
               },
                child: Text('ただのボタン'),
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('背景色が指定されたボタン'),
+                style: ElevatedButton.styleFrom(
+                 backgroundColor: Colors.red, 
+                ),
               ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>FirstPage() ));
-                }
-                 child: Text('Firstpageへ遷移する(押すと赤くなる)',
+                      builder: (context) => FirstPage()));
+                },
+                 child: Text(
+                  'Firstpageへ遷移する(押すと赤くなる)',
                  style: TextStyle(color: Colors.white),
                  ),
-                 style: )
+                 style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.red,
+                  backgroundColor: Colors.green,
+                 ),
+              ),
+              ElevatedButton(
+                onPressed: () {}
+                child: Text('枠線付きボタン'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.purple,
+                  side: BorderSide(
+                    color: Colors.blue,
+                  )
+                ),
+                )
             ],
           )
             onPressed: () {

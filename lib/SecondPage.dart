@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Forth.dart';
+import 'Third.dart';
 
-class ThirdPage extends StatelessWidget {
+class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,10 +25,10 @@ class ThirdPage extends StatelessWidget {
           ElevatedButton(
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ForthPage()));
+                  MaterialPageRoute(builder: (context) => ThirdPage()));
             },
             child: Text(
-              'Forthpageへ遷移する(押すと赤くなる)',
+              'Thirdpageへ遷移する(押すと赤くなる)',
               style: TextStyle(color: Colors.white),
             ),
             style: ElevatedButton.styleFrom(

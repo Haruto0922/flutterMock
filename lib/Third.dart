@@ -5,7 +5,7 @@ class ThirdPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("ページ(1)")),
+        appBar: AppBar(title: Text("3ページ目")),
         body: Center(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [

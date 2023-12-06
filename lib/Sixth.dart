@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'SecondPage.dart';
+import 'HomePage.dart';
 
-class FirstPage extends StatelessWidget {
+class SixthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("2ページ目")),
+        appBar: AppBar(title: Text("6ページ目")),
         body: Center(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
@@ -24,11 +24,11 @@ class FirstPage extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SecondPage()));
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => HomePage()));
             },
             child: Text(
-              'SecondPageへ遷移する(押すと赤くなる)',
+              'Homepageへ遷移する(押すと赤くなる)',
               style: TextStyle(color: Colors.white),
             ),
             style: ElevatedButton.styleFrom(

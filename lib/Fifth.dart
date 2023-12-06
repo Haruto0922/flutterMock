@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'HomePage.dart';
+import 'Sixth.dart';
 
 class FifthPage extends StatelessWidget {
   @override
@@ -24,11 +24,11 @@ class FifthPage extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HomePage()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => SixthPage()));
             },
             child: Text(
-              'Homepageへ遷移する(押すと赤くなる)',
+              'Sixthpageへ遷移する(押すと赤くなる)',
               style: TextStyle(color: Colors.white),
             ),
             style: ElevatedButton.styleFrom(
@@ -46,11 +46,6 @@ class FifthPage extends StatelessWidget {
                   width: 5,
                 )),
           ),
-          ElevatedButton.icon(
-            onPressed: () {},
-            icon: Icon(Icons.settings),
-            label: Text('.iconコンストラクタ'),
-          )
         ])));
   }
 }

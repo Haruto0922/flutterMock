@@ -46,11 +46,6 @@ class SecondPage extends StatelessWidget {
                   width: 5,
                 )),
           ),
-          ElevatedButton.icon(
-            onPressed: () {},
-            icon: Icon(Icons.settings),
-            label: Text('.iconコンストラクタ'),
-          )
         ])));
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SixthPage extends StatelessWidget {
   @override
@@ -10,41 +11,18 @@ class SixthPage extends StatelessWidget {
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           ElevatedButton(
-            onPressed: () => {
-              print('ボタンが押された!'),
-            },
-            child: Text('ただのボタン'),
-          ),
-          ElevatedButton(
-            onPressed: () {},
-            child: Text('背景色が指定されたボタン'),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.red,
-            ),
-          ),
-          ElevatedButton(
             onPressed: () {
               Navigator.push(
                   context, MaterialPageRoute(builder: (context) => HomePage()));
             },
-            child: Text(
-              'Homepageへ遷移する(押すと赤くなる)',
-              style: TextStyle(color: Colors.white),
-            ),
+            child: Text('Homepageへ遷移する(押すと赤くなる)',
+                style: GoogleFonts.dotGothic16(
+                  color: Colors.white,
+                )),
             style: ElevatedButton.styleFrom(
               foregroundColor: Colors.red,
               backgroundColor: Colors.green,
             ),
-          ),
-          ElevatedButton(
-            onPressed: () {},
-            child: Text('枠線付きボタン'),
-            style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.purple,
-                side: BorderSide(
-                  color: Colors.blue,
-                  width: 5,
-                )),
           ),
         ])));
   }

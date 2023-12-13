@@ -10,6 +10,8 @@ class SecondPage extends StatelessWidget {
         body: Center(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Text('ワレワレハウチュウジンダ',
+              style: GoogleFonts.monomaniacOne(color: Colors.black)),
           ElevatedButton(
             onPressed: () {
               Navigator.push(context,

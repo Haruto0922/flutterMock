@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_flutter_app/Sixth.dart';
 import 'Forth.dart';
-import 'Sixth.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ThirdPage extends StatelessWidget {

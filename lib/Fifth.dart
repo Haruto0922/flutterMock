@@ -7,7 +7,7 @@ class FifthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("5ページ目")),
+        appBar: AppBar(title: Text("あれはなんだ？")),
         body: Container(
             decoration: const BoxDecoration(
                 image: DecorationImage(
@@ -18,17 +18,28 @@ class FifthPage extends StatelessWidget {
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                  Text('',
+                  Image.asset('images/4.這い寄る混沌.png'),
+                  Text('確実に人ではないが、見ようによっては人にも見える。神々しいが、冒涜的でもある。',
                       style: GoogleFonts.dotGothic16(
                         color: Colors.white,
-                        fontSize: 36,
+                        fontSize: 24,
+                      )),
+                  Text('こちらから顔は見えないが、どこからともなく何かが吠えているような音が聞こえる。',
+                      style: GoogleFonts.dotGothic16(
+                        color: Colors.white,
+                        fontSize: 24,
+                      )),
+                  Text('這いよる混沌と出会ってしまった。この世のものではない、恐ろしいものを見てしまった。',
+                      style: GoogleFonts.dotGothic16(
+                        color: Colors.white,
+                        fontSize: 24,
                       )),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => HomePage()));
                     },
-                    child: Text('キャラロスト、はじめにもどる',
+                    child: Text('あなたは永久に発狂してしまった、[キャラロスト]はじめにもどる',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                         )),

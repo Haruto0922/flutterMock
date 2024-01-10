@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("0ページ目")),
+        appBar: AppBar(title: Text("入口")),
         body: Container(
             decoration: const BoxDecoration(
                 image: DecorationImage(
@@ -17,8 +17,8 @@ class HomePage extends StatelessWidget {
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                  Text('ワレワレハウチュウジンダ',
-                      style: GoogleFonts.monomaniacOne(
+                  Text('この先はどこにつながっているんだろうか',
+                      style: GoogleFonts.dotGothic16(
                         color: Colors.white,
                         fontSize: 36,
                       )),
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => FirstPage()));
                     },
-                    child: Text('Firstpageへ遷移する(押すと赤くなる)',
+                    child: Text('先に進む',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                         )),

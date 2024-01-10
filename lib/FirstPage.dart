@@ -32,6 +32,7 @@ class FirstPage extends StatelessWidget {
                     child: Text('どんどん先に進む',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
+                          fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,

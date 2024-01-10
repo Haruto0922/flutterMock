@@ -18,7 +18,7 @@ class SixthPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                   Text('無事に帰ってこれたがこれでよかったのか？',
-                      style: GoogleFonts.dotGothic16(
+                      style: GoogleFonts.rampartOne(
                         color: Colors.black,
                         fontSize: 36,
                       )),
@@ -30,6 +30,7 @@ class SixthPage extends StatelessWidget {
                     child: Text('もう一度入る',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
+                          fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,

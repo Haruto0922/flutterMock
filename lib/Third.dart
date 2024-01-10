@@ -31,6 +31,7 @@ class ThirdPage extends StatelessWidget {
                     child: Text('それでも先が気になる',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
+                          fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,
@@ -45,10 +46,11 @@ class ThirdPage extends StatelessWidget {
                     child: Text('やっぱり引き返す',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
+                          fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(
-                      foregroundColor: Colors.blue,
-                      backgroundColor: Colors.green,
+                      foregroundColor: Colors.red,
+                      backgroundColor: Colors.yellow,
                     ),
                   ),
                 ]))));

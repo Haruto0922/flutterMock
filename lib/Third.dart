@@ -26,6 +26,8 @@ class ThirdPage extends StatelessWidget {
               backgroundColor: Colors.green,
             ),
           ),
+          Text('アナタモハウチュウジンダ',
+              style: GoogleFonts.monomaniacOne(color: Colors.black)),
         ])));
   }
 }

@@ -24,6 +24,7 @@ class FifthPage extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 24,
                       )),
+                  Text(),
                   Text('こちらから顔は見えないが、どこからともなく何かが吠えているような音が聞こえる。',
                       style: GoogleFonts.dotGothic16(
                         color: Colors.white,
@@ -34,6 +35,7 @@ class FifthPage extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 24,
                       )),
+                  Text(),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

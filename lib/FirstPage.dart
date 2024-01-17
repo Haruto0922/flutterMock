@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_app/mimi2.dart';
 import 'SecondPage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,6 +24,21 @@ class FirstPage extends StatelessWidget {
                         fontSize: 36,
                       )),
                   Text(''),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => mimi2Page()));
+                    },
+                    child: Text('先が気になりよく目を凝らす',
+                        style: GoogleFonts.dotGothic16(
+                          color: Colors.white,
+                          fontSize: 20,
+                        )),
+                    style: ElevatedButton.styleFrom(
+                      foregroundColor: Colors.red,
+                      backgroundColor: Colors.green,
+                    ),
+                  ),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(

@@ -23,6 +23,8 @@ class SixthPage extends StatelessWidget {
                         fontSize: 36,
                       )),
                   Text(''),
+                  Text(''),
+                  Text(''),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

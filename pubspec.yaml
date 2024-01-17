@@ -36,12 +36,12 @@ dependencies:
 
 flutter_native_splash:
   color: '#add8e6'
-  image: 'assets/images/splash.png'
+  image: 'assets/images/cutuluh.png'
   color_dark: '#262626'
-  image_dark: 'assets/images/splash.png'
+  image_dark: 'assets/images/cutuluh.png'
   fullscreen: true
-  branding: 'assets/images/branding.png'
-  branding_dark: 'assets/images/branding.png'
+  branding: 'assets/images/rogo.png'
+  branding_dark: 'assets/images/rogo.png'
   branding_mode: bottom
   
   # The following adds the Cupertino Icons font to your application.

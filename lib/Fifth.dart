@@ -30,6 +30,8 @@ class FifthPage extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 24,
                       )),
+                  Text(''),
+                  Text(''),
                   Text('這いよる混沌と出会ってしまった。この世のものではない、恐ろしいものを見てしまった。',
                       style: GoogleFonts.dotGothic16(
                         color: Colors.white,

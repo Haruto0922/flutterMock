@@ -23,7 +23,7 @@ class ThirdPage extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 36,
                       )),
-                  Text(),
+                  Text(''),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

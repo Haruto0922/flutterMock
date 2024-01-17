@@ -24,6 +24,7 @@ class FirstPage extends StatelessWidget {
                         fontSize: 36,
                       )),
                   Text(''),
+                  Image.asset('images/nyarusign.png'),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,
@@ -36,7 +37,7 @@ class FirstPage extends StatelessWidget {
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,
-                      backgroundColor: Colors.green,
+                      backgroundColor: Colors.purple,
                     ),
                   ),
                   ElevatedButton(

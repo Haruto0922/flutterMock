@@ -24,6 +24,7 @@ class ForthPage extends StatelessWidget {
                         fontSize: 36,
                       )),
                   Text(''),
+                  Image.asset('images/nyarusign.png'),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

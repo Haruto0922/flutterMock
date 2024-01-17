@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_app/mimi3.dart';
 import 'Third.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,6 +24,22 @@ class SecondPage extends StatelessWidget {
                         fontSize: 36,
                       )),
                   Text(''),
+                  Image.asset('images/nyarusign.png'),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => mimi3Page()));
+                    },
+                    child: Text('落書きが妙に気になる',
+                        style: GoogleFonts.dotGothic16(
+                          color: Colors.white,
+                          fontSize: 20,
+                        )),
+                    style: ElevatedButton.styleFrom(
+                      foregroundColor: Colors.red,
+                      backgroundColor: Colors.purple,
+                    ),
+                  ),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

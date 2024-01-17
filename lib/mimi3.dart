@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:my_flutter_app/Sixth.dart';
-import 'package:my_flutter_app/mimi4.dart';
-import 'Forth.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_flutter_app/Third.dart';
 
-class ThirdPage extends StatelessWidget {
+class mimi3Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("結構進んだ気がする")),
+        appBar: AppBar(title: Text("オカルト、クトゥルフ神話技能失敗")),
         body: Container(
             decoration: const BoxDecoration(
                 image: DecorationImage(
@@ -19,7 +18,7 @@ class ThirdPage extends StatelessWidget {
                 child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                  Text('引き返したほうがいい気がしてきた',
+                  Text('どこかで見たようなシンボルだが思い出せない',
                       style: GoogleFonts.dotGothic16(
                         color: Colors.white,
                         fontSize: 36,
@@ -29,24 +28,9 @@ class ThirdPage extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => mimi4Page()));
+                          MaterialPageRoute(builder: (context) => ThirdPage()));
                     },
-                    child: Text('なにか聞いたことのある音がする',
-                        style: GoogleFonts.dotGothic16(
-                          color: Colors.white,
-                          fontSize: 20,
-                        )),
-                    style: ElevatedButton.styleFrom(
-                      foregroundColor: Colors.red,
-                      backgroundColor: Colors.purple,
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ForthPage()));
-                    },
-                    child: Text('それでも先が気になる',
+                    child: Text('特に気にならず先に進む',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                           fontSize: 20,

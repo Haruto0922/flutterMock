@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_flutter_app/SecondPage.dart';
 import 'package:my_flutter_app/Sixth.dart';
-import 'SecondPage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class mimi2Page extends StatelessWidget {
@@ -24,6 +23,7 @@ class mimi2Page extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 36,
                       )),
+                  Image.asset('images/nyarusign.png'),
                   Text(''),
                   ElevatedButton(
                     onPressed: () {

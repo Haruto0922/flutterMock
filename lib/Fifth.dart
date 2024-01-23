@@ -46,12 +46,12 @@ class FifthPage extends StatelessWidget {
                     },
                     child: Text('あなたは永久に発狂してしまった、[キャラロスト]はじめにもどる',
                         style: GoogleFonts.dotGothic16(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(
-                      foregroundColor: Colors.red,
-                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.brown,
+                      backgroundColor: Colors.red,
                     ),
                   ),
                 ]))));

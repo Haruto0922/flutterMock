@@ -49,7 +49,7 @@ class mimi2Page extends StatelessWidget {
                     },
                     child: Text('引き返したほうがいい気がしてきた',
                         style: GoogleFonts.dotGothic16(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(

@@ -46,7 +46,7 @@ class mimiPage extends StatelessWidget {
                     },
                     child: Text('やっぱり引き返す',
                         style: GoogleFonts.dotGothic16(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 20,
                         )),
                     style: ElevatedButton.styleFrom(

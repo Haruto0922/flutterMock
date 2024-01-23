@@ -52,7 +52,7 @@ class mimi3Page extends StatelessWidget {
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,
-                      backgroundColor: Colors.yellow,
+                      backgroundColor: Colors.blue,
                     ),
                   ),
                 ]))));

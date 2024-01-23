@@ -40,6 +40,7 @@ class FirstPage extends StatelessWidget {
                       backgroundColor: Colors.purple,
                     ),
                   ),
+                  Text(''),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(

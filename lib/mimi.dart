@@ -39,6 +39,7 @@ class mimiPage extends StatelessWidget {
                       backgroundColor: Colors.green,
                     ),
                   ),
+                  Text(''),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(context,

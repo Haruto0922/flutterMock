@@ -30,7 +30,7 @@ class mimi3Page extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => ThirdPage()));
                     },
-                    child: Text('特に気にならず先に進む',
+                    child: Text('何か引っかかるが先に進む',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                           fontSize: 20,
@@ -45,7 +45,7 @@ class mimi3Page extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => SixthPage()));
                     },
-                    child: Text('やっぱり引き返す',
+                    child: Text('引き返したほうがいいんじゃない？',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                           fontSize: 20,

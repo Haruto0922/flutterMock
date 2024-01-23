@@ -45,7 +45,7 @@ class ForthPage extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => SixthPage()));
                     },
-                    child: Text('欲を振りはらって、逃げるように引き返した',
+                    child: Text('このまま進みなよ、ここまで来て引き返すの？',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                           fontSize: 20,

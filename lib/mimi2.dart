@@ -47,7 +47,7 @@ class mimi2Page extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) => SixthPage()));
                     },
-                    child: Text('やっぱり引き返す',
+                    child: Text('引き返したほうがいい気がしてきた',
                         style: GoogleFonts.dotGothic16(
                           color: Colors.white,
                           fontSize: 20,

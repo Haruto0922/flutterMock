@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                         )),
                     style: ElevatedButton.styleFrom(
                       foregroundColor: Colors.red,
-                      backgroundColor: Colors.green,
+                      backgroundColor: Colors.purple,
                     ),
                   ),
                   Text(''),
